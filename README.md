@@ -1,2 +1,2 @@
 # web3-workshop
-Web3 Tests Workshop using Metamask, Synpress and Cypress for Live2Test 2023 Conference
+[Web3 Tests Workshop](https://www.canva.com/design/DAFhsNgBMAA/Kvvw44v1WzsIH7B6xpSB7w/view?utm_content=DAFhsNgBMAA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) using Metamask, Synpress and Cypress for Live2Test 2023 Conference

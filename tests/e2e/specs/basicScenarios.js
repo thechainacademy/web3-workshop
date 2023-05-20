@@ -1,8 +1,8 @@
-// Define the test suite "Metamask Extension tests"
-describe('Metamask Extension tests', () => {
+// Define the test suite "Metamask Basic tests"
+describe('Metamask Basic tests', () => {
 
-    // Define the test case "connect to DApp with Metamask extension example"
-    it('connect to DApp with Metamask extension example', () => {
+    // Define the test case"
+    it('connect to DApp with Metamask extension', () => {
   
       // Add a new network to Metamask using the `cy.addMetamaskNetwork()` command
       cy.addMetamaskNetwork({
@@ -27,8 +27,8 @@ describe('Metamask Extension tests', () => {
   
     });
   
-    // Define the test case "create transaction example"
-    it('create transaction example', () => {
+    // Define the test case "create transaction"
+    it('create transaction', () => {
   
       // Click the "Send" button on the DApp
       cy.get('#sendButton').click();
@@ -37,8 +37,8 @@ describe('Metamask Extension tests', () => {
       cy.confirmMetamaskTransaction().should('be.true');
     });
   
-    // Define the test case "confirm signature example"
-    it('confirm signature example', () => {
+    // Define the test case "confirm signature"
+    it('confirm signature', () => {
   
       // Click the "Sign" button on the DApp
       cy.get('#ethSign').click();

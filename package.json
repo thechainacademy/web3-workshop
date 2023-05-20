@@ -1,14 +1,14 @@
 {
-  "name": "metamask.synpresstests",
+  "name": "Web3 Workshop with Synpress",
   "version": "1.0.0",
-  "description": "example of synpress tests",
+  "description": "Basic scenarios with Metamask using Synpress",
   "main": "index.js",
   "scripts": {
     "test": "synpress run --configFile synpress.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TourmalineCore/Metamask.SynpressTests.git"
+    "url": "git+https://github.com/thechainacademy/web3-workshop"
   },
   "author": "Elijah Sapronov",
   "license": "ISC",

@@ -3,17 +3,16 @@ describe('Metamask Extension tests', () => {
 
   // Define the test case "connect to DApp with Metamask extension example"
   it('connect to DApp with Metamask extension example', () => {
-    
+
     // Add a new network to Metamask using the `cy.addMetamaskNetwork()` command
     cy.addMetamaskNetwork({
-      networkName: 'Klaytn Baobab',
-      rpcUrl: 'https://api.baobab.klaytn.net:8651',
-      chainId: '1001',
-      symbol: 'KLAY',
-      blockExplorer: 'https://baobab.scope.klaytn.com/',
+      networkName: 'Web3 Workshop local',
+      rpcUrl: 'HTTP://127.0.0.1:7545',
+      chainId: '1337',
+      symbol: 'ETH',
       isTestnet: true,
     })
-    
+
     // Visit the root URL of the DApp
     cy.visit('/');
 
@@ -25,7 +24,7 @@ describe('Metamask Extension tests', () => {
 
     // Assert that the "Connect" button on the DApp shows the text "Connected"
     cy.get('#connectButton').should('have.text', 'Connected');
- 
+
   });
 
   // Define the test case "create transaction example"
